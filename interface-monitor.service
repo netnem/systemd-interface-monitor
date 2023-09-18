@@ -7,6 +7,10 @@ Type=simple
 ExecStart=/root/interface-monitor.sh
 Restart=always
 RestartSec=5
+StandardOutput=null
+StandardError=null
+StandardInput=null
+LogLevelMax=notice
 
 [Install]
 WantedBy=multi-user.target
